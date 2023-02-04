@@ -1,3 +1,5 @@
 # Script Settings and Resources
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-getwd()
+
+# Data Import and Cleaning
+raw_df <- read.csv(file ="../data/week3.csv")
